@@ -35,7 +35,7 @@ export const handler = async (input: string): Promise<ActionOutput> => {
       statusCode: 200,
       body: JSON.stringify({ response }),
     };
-  } catch (e) {
+  } catch (e:any) {
     console.error(e);
 
     return{
