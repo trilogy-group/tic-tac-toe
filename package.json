@@ -2,7 +2,7 @@
   "name": "invocables-typescript",
   "version": "1.0.0",
   "description": "## Commands",
-  "main": "dist/tictacttoe.js",
+  "main": "index.js",
   "scripts": {
     "build": "tsc",
     "play": "tsc && node dist/src/tictactoe.js",
