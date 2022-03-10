@@ -29,7 +29,7 @@ export const handler = async (input: string): Promise<ActionOutput> => {
       });
     }
     return generateOutput(StatusCodes.OK, body);
-  } catch (e) {
+  } catch (e:any) {
     console.error(e);
 
     return generateOutput(e.statusCode || StatusCodes.INTERNAL_SERVER_ERROR, {
